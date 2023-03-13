@@ -11,7 +11,7 @@ public class InsertionSort
 
     public int[] sort()
     {
-        int n = array.length;
+        int n = this.array.length;
         for (int i = 1; i < n-1; i++)
         {
             int j = i;

@@ -13,7 +13,7 @@ public class SelectionSort {
 
     public int[] sort()
     {
-        int n = array.length;
+        int n = this.array.length;
         for (int i = 0; i < n-1; i++)
         {
             int k = i; //smallest value so far

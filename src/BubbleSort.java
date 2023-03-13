@@ -8,7 +8,7 @@ public class BubbleSort
 
     public int[] sort()
     {
-        int n = array.length;
+        int n = this.array.length;
         boolean swapped;
         do
         {
