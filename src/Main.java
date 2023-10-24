@@ -32,6 +32,5 @@ public class Main {
         print_array(unsorted_array);
         MergeSort merge_sort = new MergeSort();
         print_array(merge_sort.sort(unsorted_array));
-
     }
 }

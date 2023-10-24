@@ -1,4 +1,4 @@
-public class SelectionSort {
+public class DifferentSelectionSort {
 
     /**
      * Algorithm divides the input list in two parts: sorted sublist of items, remaining unsorted items
@@ -6,7 +6,7 @@ public class SelectionSort {
      * The algorithm proceeds by finding the smallest element in the unsorted sublist, swapping it with the leftmost unsorted element.
      * **/
     public int array[];
-    public SelectionSort(int array_to_sort[])
+    public DifferentSelectionSort(int array_to_sort[])
     {
         this.array = array_to_sort;
     }
